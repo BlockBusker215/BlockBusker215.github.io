@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatiible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://kit.fontawesome.com/f7f2427b84.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/Eagle Head.jpg" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#services">Personal Projects</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact Information</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i id="close-X" class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Computer Science Student</p>
+                    <h1>Hello, I'm <span>Grant Busker</span><br> from Southwest MN Christian Highschool</h1>
+                </div>
+            </div>
+        </div>
+<!---------------------About Me Section-------------------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/Winter Scarf Me.jpeg" height="800px">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>This is the paragraph in which I tell you a little more about me. 
+                            It will probably be a bit longer than this.</p>
+
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('Education')">Education</p>
+                                <p class="tab-links" onclick="opentab('Projects')">Projects</p>
+                                <p class="tab-links" onclick="opentab('Information')">Information</p>
+                                <p class="tab-links" onclick="opentab('Certifications')">Certifications</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="Skills">
+                                <ul>
+                                    <li><span>This is the Skills List</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="Experience">
+                                <ul>
+                                    <li><span>This is the Experience List</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="Education">
+                                <ul>
+                                    <li><span>This is the Education List</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="Projects">
+                                <ul>
+                                    <li><span>This is the Projects List</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="Information">
+                                <ul>
+                                    <li><span>This is the Information List</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="Certifications">
+                                <ul>
+                                    <li><span>This is the Certifications List</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                    <li><span>I am good at a lot of things.</span><br>I can design websites really well</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-------------------------------Services Sectionn of the Website-------------------------------->
+
+        <div id="services" >
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-brands fa-python"></i>
+                        <h2>Python Coding</h2>
+                        <p>This is a description of the service title above.</p>
+                        <a href="#LINK">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-laptop-code"></i>                        
+                        <h2>Website Design</h2>
+                        <p>This is a description of the service title above.</p>
+                        <a href="#LINK">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-palette"></i>
+                        <h2>Graphic Design</h2>
+                        <p>This is a description of the service title above.</p>
+                        <a href="#LINK">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-image"></i>
+                        <h2>Image Processing</h2>
+                        <p>This is a description of the service title above.</p>
+                        <a href="#LINK">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-------------------------------Portfolio Section-------------------------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Portfolio</h1>
+
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/Senior Soccer Wave Cropped.jpg">
+                        <div class="layer">
+                            <h3>Title of Accomplishment</h3>
+                            <p>This is a description of a certain thing that I've done, connected to the image above</p>
+                            <a href="#"><i class="fa-solid fa-trophy"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/Jacob and Me by MN Pillar.png">
+                        <div class="layer">
+                            <h3>Title of Accomplishment</h3>
+                            <p>This is a description of a certain thing that I've done, connected to the image above</p>
+                            <a href="#"><i class="fa-solid fa-trophy"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/Payton 2024.jpeg">
+                        <div class="layer">
+                            <h3>Title of Accomplishment</h3>
+                            <p>This is a description of a certain thing that I've done, connected to the image above</p>
+                            <a href="#"><i class="fa-solid fa-trophy"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More of My Work</a>
+            </div>
+        </div>
+
+        <!-------------------------------------Contact Section------------------------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-regular fa-paper-plane"></i> Email: gbusker20@gmail.com</p>
+                        <p><i class="fa-solid fa-mobile-screen"></i> Cell Phone: 507-215-6657</p>
+                        <div class="social-icons">
+                            <a href="#Instagram Account"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#Snapchat Account"><i class="fa-brands fa-snapchat"></i></a>
+                            <a href="#Facebook Account"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/grant-busker-a126b02b1/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="message"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="identifier">
+                <p><i class="fa-solid fa-bolt-lightning"></i> Created and Designed by Grant Busker with the Assistance of Online Help <i class="fa-solid fa-bolt-lightning"></i></p>
+            </div>
+        </div>
+
+
+
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link")
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <form name="submit-to-google-sheet">
+            <input name="email" type="email" placeholder="Email" required>
+            <button type="submit">Send</button>
+          </form>
+          
+          <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyOF0dYxpWfiU9toBiCmHRIBogvzIqhSfIXZ8ZumXeUx9fqx7l-WIvFiTWwyRoWZq3z/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const message = document.getElementById("message")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    message.innerHTML = "Message Sent Successfully!"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
+
