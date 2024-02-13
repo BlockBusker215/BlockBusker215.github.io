@@ -89,6 +89,9 @@ nav ul li a:hover::after{
 #about{
     padding: 80px 0;
     color: #ffffff;
+    background-image: url(images/Dark\ Blue\ Honeycomb.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .row{
