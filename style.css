@@ -319,6 +319,13 @@ nav ul li a:hover::after{
 
 /*------------------Contact Section----------------*/
 
+
+#contact{
+    background-image: url(images/Dark\ Blue\ Honeycomb.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 .contact-left{
     flex-basis: 35%;
 }
