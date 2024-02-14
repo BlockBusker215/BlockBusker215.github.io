@@ -316,7 +316,6 @@ nav ul li a:hover::after{
 
 .btn:hover{
     background: #5c6fff;
-    transform: scale(1.2);
 }
 
 
