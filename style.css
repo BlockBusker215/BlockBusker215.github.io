@@ -316,6 +316,8 @@ nav ul li a:hover::after{
 
 
 #contact{
+    width: 100%;
+    height: 100vh;
     background-image: url(images/Dark\ Blue\ Honeycomb.jpg);
     background-size: cover;
     background-position: center;
