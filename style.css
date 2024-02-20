@@ -364,6 +364,11 @@ nav ul li a:hover::after{
     transition: transform 0.5s;
 }
 
+.btn.btn2:hover{
+    color: white;
+    transition: 0.5s;
+}
+
 .contact-right form{
     width: 100%;
 }
@@ -386,10 +391,6 @@ form .btn2{
     margin-top: 20px;
     cursor: pointer;
     transition: transform 0.5s;
-}
-
-.btn.btn2:hover{
-    background-color: white;
 }
 
 .identifier{
