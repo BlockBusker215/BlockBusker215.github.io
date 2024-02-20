@@ -388,7 +388,7 @@ form .btn2{
     transition: transform 0.5s;
 }
 
-form .btn2:hover{
+.btn.btn2:hover{
     background-color: white;
 }
 
