@@ -361,12 +361,11 @@ nav ul li a:hover::after{
 .btn.btn2{
     display: inline-block;
     background: blue;
-    transition: transform 0.5s;
+    transition: background 0.5s;
 }
 
 .btn.btn2:hover{
-    color: white;
-    transition: 0.5s;
+    background: white;
 }
 
 .contact-right form{
